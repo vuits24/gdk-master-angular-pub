@@ -1,0 +1,11 @@
+// Import Gdk core library
+@import "node_modules/gdk-ang-lib/lib/scss/core";
+
+// Import app.theme.scss
+@import "./app/app.theme";
+.mat-dialog-content{
+  max-height: unset!important;
+}
+.gdk-dialog {
+  max-width: 99%!important;
+}
